@@ -1,0 +1,2 @@
+truncate BOOT.bin -s 1200k
+mkisofs -o BOOT.iso -b BOOT.bin ./
